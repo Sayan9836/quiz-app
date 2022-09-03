@@ -68,7 +68,7 @@ const data = [
     },
     {
         id: 4,
-        question: "Which of these spices is the smallest in size?ovie?",
+        question: "Which of these spices is the smallest in size?",
         answers: [
             {
                 text: "Ajwain",
@@ -238,6 +238,116 @@ const data = [
             },
             {
                 text: "Tennis",
+                correct: false,
+            },
+        ],
+    },
+    {
+        id: 12,
+        question: "Who recently became the first woman director in the board of Reliance Industries?",
+        answers: [
+            {
+                text: "Kokilaben Ambani",
+                correct: false,
+            },
+            {
+                text: "Deepti Salgaonkar",
+                correct: false,
+            },
+            {
+                text: "Nitu Ambani",
+                correct: true,
+            },
+            {
+                text: " Nina Kothari",
+                correct: false,
+            },
+        ],
+    },
+    {
+        id: 13,
+        question: " In a circle, which of these is half of the diameter?",
+        answers: [
+            {
+                text: "Area",
+                correct: false,
+            },
+            {
+                text: "Circumference",
+                correct: false,
+            },
+            {
+                text: "Center",
+                correct: false,
+            },
+            {
+                text: "Radius",
+                correct: true,
+            },
+        ],
+    },
+    {
+        id: 14,
+        question: "Which of these is measured with the help of a glucometer?",
+        answers: [
+            {
+                text: "Heartbeat",
+                correct: false,
+            },
+            {
+                text: "Blood pressure",
+                correct: false,
+            },
+            {
+                text: "Blood sugar",
+                correct: true,
+            },
+            {
+                text: " Vision",
+                correct: true,
+            },
+        ],
+    },
+    {
+        id: 15,
+        question: "How many watts equal a megawatt?",
+        answers: [
+            {
+                text: "One hundred",
+                correct: false,
+            },
+            {
+                text: " One thousand",
+                correct: false,
+            },
+            {
+                text: "Ten thousand",
+                correct: false,
+            },
+            {
+                text: "One lakh",
+                correct: true,
+            },
+        ],
+    },
+    {
+        id: 16,
+        question: "Who holds the record for scoring the fastest half century in IPL?",
+        answers: [
+            {
+                text: " Corey Anderson",
+                correct: false,
+            },
+            {
+                text: "Yusuf Pathan",
+                correct: true,
+            },
+            {
+                text: "Robin Uthappa",
+                correct: false,
+            },
+            {
+                text: "Glen Maxwell",
                 correct: false,
             },
         ],
