@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import useSound from 'use-sound';
-import play from '../assests/play.wav'
 import correct from '../assests/correct.wav'
 import wrong from '../assests/wrong.wav'
 const Trivia = ({ data, setStopTime, questionNo, setquestionNo }) => {
@@ -8,7 +7,6 @@ const Trivia = ({ data, setStopTime, questionNo, setquestionNo }) => {
     const [question, setquestion] = useState(null);
     const [selectedAns, setSelectedAns] = useState("");
     const [className, setClassName] = useState("answer");
-    const [letsplay] = useSound(play);
     const [correctAnswer] = useSound(correct);
     const [wrongAnswer] = useSound(wrong);
 

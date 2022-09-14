@@ -14,6 +14,7 @@ const Timer = ({ setStopTime, questionNo }) => {
         setTimer(30);
     }, [questionNo])
 
+ 
     return timer;
 
 }

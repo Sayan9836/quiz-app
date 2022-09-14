@@ -70,7 +70,7 @@ function App() {
                     return <li idx={m.id} className={questionNo === m.id ? 'moneylistitem active' : 'moneylistitem'}>
                       <span className='moneylistitemnumber'>{m.id}</span>
                       <span className='moneylistitemamout'>{m.amount}</span>
-                    </li>
+                    </li> 
                   })
                 }
               </ul>
