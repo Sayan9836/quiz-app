@@ -5,12 +5,13 @@
   background-color: #020230;
   color: white;
   overflow: hidden;
-
+  
 }
 
 .main {
   width: 75%;
-  background-image: url("./assests/bg.jpg") ;
+  background-image: url("./assests/bg.jpg");
+  background-size: cover;
   display: flex;
   flex-direction: column;
 }
@@ -132,10 +133,11 @@
 }
 
 .pyramid {
-  width: 25%;
+  width: max(25%,8.9rem);
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow:hidden;
 }
 
 .moneylist {
@@ -212,7 +214,7 @@
   font-size: 18px;
 }
 
-@media screen and (max-width:600px)  {
+@media screen and (max-width:55em)  {
   .app {
     height:100vh;
     width:100vw;
@@ -231,6 +233,9 @@
     font-size: 13px;
     font-weight: 200;
     margin-left: 30px;
+  }
+  .moneylistitem{
+    padding-bottom: 1rem;
   }
   .timer {
     margin-bottom: 4rem;

@@ -66,8 +66,8 @@ function App() {
             <div className='pyramid'>
               <ul className="moneylist">
                 {
-                  moneyPiramid.map((m, idx) => {
-                    return <li idx={m.id} className={questionNo === m.id ? 'moneylistitem active' : 'moneylistitem'}>
+                  moneyPiramid.map((m) => {
+                    return <li key={m.id} className={questionNo === m.id ? 'moneylistitem active' : 'moneylistitem'}>
                       <span className='moneylistitemnumber'>{m.id}</span>
                       <span className='moneylistitemamout'>{m.amount}</span>
                     </li> 

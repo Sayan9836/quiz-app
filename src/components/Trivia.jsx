@@ -49,8 +49,8 @@ const Trivia = ({ data, setStopTime, questionNo, setquestionNo }) => {
             <div className="questions">{question?.question}</div>
             <div className="answers">
                 {
-                    question?.answers.map((a) => {
-                        return <div className={selectedAns === a ? className : 'answer'} onClick={() => handleClick(a)}>{a.text}</div>
+                    question?.answers.map((a,index) => {
+                        return <div key={index+1} className={selectedAns === a ? className : 'answer'} onClick={() => handleClick(a)}>{a.text}</div>
                     })
                 }
 
